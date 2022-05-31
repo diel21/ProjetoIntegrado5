@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  width: auto;
+  height: 10vh;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 36vw;
+  align-items: center;
+  background-color: #067490;
+  color: #fff;
+}
+
+.headerLogo {
+  width: 150px;
+  width: 100px;
+  display: block;
+}
+.headerLogo img {
+  width: 50px;
+  height: 50px;
+}
+
+.headerTitulo {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+.headerTitulo h1 {
+  font: bold 40px "Roboto", sans-serif;
+}
+.headerTitulo span {
+  width: 100px;
+  display: inline-block;
+  background-color: #062c47;
+}
+
+.sub-menu {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-right: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  background: #1d94af;
+}
+.sub-menu ul {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.sub-menu li {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.sub-menu li:hover {
+  background: #04657e;
+  transition: 0.3s;
+}
+
+.sub-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #fdf8ef;
+}
+
+.box-container {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-container {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.formulario {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  padding: 15px;
+  gap: 5px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 7px 9px 6px #9c9c9c;
+}
+
+.ipt-field {
+  width: 70%;
+  padding-left: 40px;
+  margin-bottom: 7px;
+}
+
+.ipt-txt {
+  width: 80%;
+  height: 25px;
+  display: block;
+  padding: 5px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 80%;
+  height: 30px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background: #067490;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.rodape {
+  width: 100%;
+  display: table;
+  padding: 40px 0;
+}
+
+.rodape .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  color: #1d94af;
+}
